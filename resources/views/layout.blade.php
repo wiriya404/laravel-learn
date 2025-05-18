@@ -18,10 +18,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" href="{#}">All Post</a>
+                    <a class="nav-link {{ request()->routeIs('index') ? 'active' : '' }}" href="{{ route('index') }}">All Post</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Create Post</a>
+                    <a class="nav-link {{ request()->routeIs('create') ? 'active' : '' }}" href="{{ route('create') }}">Create Post</a>
                 </li>
             </ul>
         </div>
