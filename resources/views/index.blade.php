@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
-</head>
-<body>
-    
-</body>
-</html>
+@extends('layout')
+
+@section('content')
+    <h1>All Post </h1>    
+    <a href="#" class="btn btn-primary mb-3"> + Create New Post</a>    
+@endsection
